@@ -1,0 +1,169 @@
+body {
+    background-color: lightblue;
+
+}
+
+#wrapper {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#main {
+    background-color: #00354e;
+    color: white;
+    width: 200vh;
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 33%;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+#profilfoto {
+    width: 150px;
+    height: auto;
+    align-self: auto;
+
+}
+
+.profiltxt h2 {
+    color: lightskyblue;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profiltxt h4 {
+    color: lightskyblue;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.kontaktinfo {
+    padding-top: 40px;
+}
+
+
+.material-icons {
+    font-size: 14;
+    color: lightblue;
+}
+
+#aside {
+    background-color: lightgray;
+    color: #00354e;
+    width: 67%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+#int {
+    margin-left: 8%;
+}
+
+.h3main {
+    text-transform: uppercase;
+    color: lightskyblue;
+}
+
+#h3kinf {
+    text-transform: uppercase;
+    color: lightskyblue;
+}
+
+#aside h3 {
+    color: #00354e;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.skills :first-child {
+    list-style: none;
+    border-bottom: solid;
+    margin: 5px;
+    border-color: lightskyblue;
+
+}
+
+tr :nth-child(1) {
+    width: 200px;
+    padding-left: 20px;
+}
+
+#werdeg {
+    margin-left: 20px;
+}
+
+#werdeg ul {
+    list-style: disc;
+
+}
+
+a.menu-link:hover,
+a.menu-link:active {
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #00354e;
+    box-shadow: 0px 2px 4px #00354e;
+}
+
+.title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    display: inline-block;
+    align-self: center;
+    margin-left: 500px;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 4px #00354e;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: #00354e;
+    padding: 1rem;
+    display: inline-block;
+}
